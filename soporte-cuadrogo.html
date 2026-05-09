@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soporte - CuadroGo</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #071326;
+      --surface: #0e2038;
+      --text: #f6f8fb;
+      --muted: #b9c2d0;
+      --accent: #12d6c9;
+      --border: rgba(255, 255, 255, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background: radial-gradient(circle at top, #10345b 0, var(--bg) 42rem);
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+
+    article {
+      padding: 36px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: rgba(14, 32, 56, 0.88);
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin-top: 34px;
+      font-size: 1.25rem;
+      color: var(--accent);
+    }
+
+    p {
+      margin: 12px 0 0;
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 22px;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .contact {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 14px 18px;
+      border-radius: 12px;
+      background: var(--accent);
+      color: #031525;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .card {
+      margin-top: 20px;
+      padding: 16px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    @media (max-width: 640px) {
+      main {
+        width: min(100% - 20px, 920px);
+        padding: 24px 0;
+      }
+
+      article {
+        padding: 22px;
+        border-radius: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Soporte de CuadroGo</h1>
+      <p>CuadroGo es una app para crear torneos de padel, eliminatorias, mixings, horarios, pistas y cuadros para compartir.</p>
+
+      <a class="contact" href="mailto:soporte@time4padel.es">Contactar con soporte</a>
+
+      <h2>Contacto</h2>
+      <p>Si necesitas ayuda, quieres informar de un problema o tienes dudas sobre CuadroGo Pro, escribe a:</p>
+      <p class="card"><a href="mailto:soporte@time4padel.es">soporte@time4padel.es</a></p>
+
+      <h2>Informacion util</h2>
+      <ul>
+        <li>Indica el modelo de iPhone o iPad que usas.</li>
+        <li>Explica que estabas intentando hacer cuando aparecio el problema.</li>
+        <li>Si puedes, adjunta una captura de pantalla.</li>
+      </ul>
+
+      <h2>Compras y restauracion</h2>
+      <p>CuadroGo Pro es una compra unica no consumible gestionada por Apple. Si ya compraste Pro, puedes restaurar la compra desde la pantalla Pro de la app usando el mismo Apple ID.</p>
+
+      <h2>Privacidad</h2>
+      <p>Puedes consultar la politica de privacidad de CuadroGo en la pagina correspondiente publicada junto a esta web de soporte.</p>
+    </article>
+  </main>
+</body>
+</html>
